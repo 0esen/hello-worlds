@@ -1,0 +1,5 @@
+const cowsay = require('cowsay');
+function helloWorldBearish() {
+  console.log(cowsay.say({ text: "hello world", f: "bearish" }));
+}
+module.exports = helloWorldBearface;
